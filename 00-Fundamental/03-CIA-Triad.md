@@ -84,7 +84,7 @@ The CIA Triad is the foundation of Information Security. Every security control 
 6. Why must a SOC Analyst understand the CIA Triad before analyzing alerts?
 7. Describe an example of an incident that could affect more than one CIA principle.
 
-#  Mini Case
+#  🕵️‍♂️ Mini Case
 Case
 At 09:15, the SIEM system generated three alerts:
 1. A user successfully logged into the VPN from Indonesia, and seven minutes later, the same account logged in from Germany.
