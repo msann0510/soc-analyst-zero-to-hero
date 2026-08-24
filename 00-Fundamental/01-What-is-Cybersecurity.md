@@ -12,7 +12,7 @@ Cyber Security is the process of protecting systems, networks, applications, dev
 and data from cyber threats such as unauthorized access, malware, ransomware, data theft, and service disruption.
 Cyber Security is not a one-time product or solution. It is a continuous process because threats constantly evolve.
 
-=============================================================
+---
 
 # 🌍 Why is Cyber Security Important?
 Today almost every organization depends on digital technology.
@@ -31,7 +31,7 @@ Without proper security, organizations may experience:
 - Service disruption
 - Reputation damage
 
-=============================================================
+---
 
 # 🛡️ Digital Assets
 Cyber Security protects valuable digital assets.
@@ -65,8 +65,7 @@ Cyber Security protects valuable digital assets.
 - GitHub Account
 - Domain Account
 
-============================================================
-
+---
 # 🎯 Main Objectives of Cyber Security
 Cyber Security has four main objectives.      
 ### Prevent
@@ -91,7 +90,7 @@ Restore systems and services after an incident. Example:
 - Restore server
 - Activate service
 
-=============================================================
+---
 
 # 👨‍💻 What is a SOC Analyst?
 A SOC (Security Operations Center) Analyst is responsible for monitoring security alerts, analyzing logs, 
@@ -112,7 +111,7 @@ Cyber Security is a continuous process of protecting digital assets against cybe
 A SOC Analyst plays an important role in monitoring, detecting, and responding to security incidents 
 to maintain the confidentiality, integrity, and availability of information systems.
 
-==============================================================
+---
 
 # 📝 Quiz
 1. What is meant by cybersecurity? 
