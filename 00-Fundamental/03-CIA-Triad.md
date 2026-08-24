@@ -85,12 +85,12 @@ The CIA Triad is the foundation of Information Security. Every security control 
 7. Describe an example of an incident that could affect more than one CIA principle.
 
 #  🕵️‍♂️ Mini Case
-Case
+### Case
 At 09:15, the SIEM system generated three alerts:
 1. A user successfully logged into the VPN from Indonesia, and seven minutes later, the same account logged in from Germany.
 2. The product database showed a price change from IDR 5,000,000 to IDR 50,000 without a corresponding change request ticket.
 3. The company website was inaccessible for two hours due to an extremely high traffic spike.
-Task
+### Task
 For each incident:
 1. Identify the affected CIA principle.
 2. Explain your reasoning.
