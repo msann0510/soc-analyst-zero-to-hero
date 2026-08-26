@@ -1,0 +1,155 @@
+# 🔑 Identity, Authentication & Authorization
+
+## 🎯 Learning Objectives
+After completing this lesson, I can:
+- Explain the concepts of Identity, Digital Identity, and Account.
+- Differentiate Authentication and Authorization.
+- Understand Permissions and Access Control.
+- Explain common authentication methods.
+- Identify common authentication attacks and security controls.
+
+---
+
+# 👤 Identity
+Identity represents a unique person, device, application, or service within a system.
+It answers the question:
+> **Who are you?**
+An Identity can belong to a user, server, application, or service.
+
+# 🪪 Digital Identity
+A Digital Identity is the electronic representation of an Identity inside a computer system.
+Examples include:
+- Username
+- Email Address
+- Employee ID
+- Device ID
+Systems use Digital Identity to recognize users and devices.
+
+# 👤 Account
+An Account is an object within a system that allows an Identity to access specific services.
+One Identity may own multiple accounts.
+Examples:
+- Windows Account
+- Microsoft Account
+- GitHub Account
+- Google Account
+
+# 🔐 Credential
+A Credential is information used to prove an Identity.
+Common credential types include:
+- Password
+- Passphrase
+- PIN
+- One-Time Password (OTP)
+- Fingerprint
+- Security Key
+Attackers frequently target credentials because stealing them allows unauthorized access.
+
+# 🔑 Authentication
+Authentication is the process of verifying whether a user is who they claim to be.
+Common authentication methods include:
+- Password Authentication
+- PIN Authentication
+- Biometric Authentication
+- Multi-Factor Authentication (MFA)
+Authentication answers:
+> **Who are you?**
+
+# 🛂 Authorization
+Authorization determines what an authenticated user is allowed to access or perform.
+Examples:
+- Read
+- Write
+- Modify
+- Delete
+- Execute
+Authorization answers:
+> **What are you allowed to do?**
+
+---
+
+# 🛡️ Permission & Access Control
+Permissions define the specific actions a user can perform on a resource.
+Access Control combines:
+- Identity
+- Authentication
+- Authorization
+- Permissions
+to ensure that only authorized users can access protected resources.
+
+---
+
+# 🔒 Multi-Factor Authentication (MFA)
+Multi-Factor Authentication (MFA) requires two or more authentication factors before granting access.
+Common authentication factors include:
+
+### Something You Know
+- Password
+- PIN
+- Passphrase
+
+### Something You Have
+- Smartphone
+- OTP Token
+- Security Key
+
+### Something You Are
+- Fingerprint
+- Face Recognition
+- Iris Scan
+MFA significantly reduces the risk of account compromise.
+
+---
+
+# 🔄 Single Sign-On (SSO)
+Single Sign-On (SSO) allows users to authenticate once and access multiple applications without logging in repeatedly.
+### Benefits
+- Better user experience
+- Fewer passwords
+- Simplified account management
+### Risk
+If an SSO account is compromised, multiple connected services may also be affected.
+
+---
+
+# ⚖️ Principle of Least Privilege
+The Principle of Least Privilege grants users only the permissions required to perform their job.
+Applying Least Privilege reduces the impact of compromised accounts and limits unnecessary access.
+
+---
+
+# ⚔️ Common Authentication Attacks
+## 💥 Brute Force Attack
+Attempts many passwords against a single account until the correct password is found.
+
+## 🎯 Password Spraying
+Attempts one common password against many different accounts.
+This technique helps attackers avoid account lockout policies.
+
+## 🗃️ Credential Stuffing
+Uses stolen usernames and passwords from previous data breaches to access other services.
+Credential Stuffing is effective because many users reuse passwords across multiple accounts.
+
+---
+
+# 🛡️ Security Controls
+The following controls help secure authentication systems:
+- Multi-Factor Authentication (MFA)
+- Strong Password Policy
+- Passphrases
+- Password Manager
+- Account Lockout
+- Principle of Least Privilege
+- Security Awareness Training
+
+---
+
+# 🔐 Key Takeaways
+- Identity represents who a user, device, or service is.
+- Digital Identity is the electronic representation of an Identity.
+- Credentials prove an Identity.
+- Authentication verifies Identity.
+- Authorization determines permissions after successful authentication.
+- Access Control protects resources using Authentication, Authorization, and Permissions.
+- MFA, Least Privilege, and strong password policies significantly improve security.
+- Understanding authentication attacks helps SOC Analysts detect and respond to suspicious login activities.
